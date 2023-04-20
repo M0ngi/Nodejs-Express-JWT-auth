@@ -2,6 +2,22 @@
 
 A basic authentification using JWT token. Implements an access & refresh token.
 
+## Env variables
+
+Make sure to update your `.env` file.
+
+- Db Variables:
+    * MONGODB_URL_PROD: Mongodb connection url for production.
+    * MONGODB_URL_DEV: Mongodb connection url for development.
+
+- JWT Variables:
+    * ACCESS_TOKEN_SECRET: Access token secret.
+    * REFRESH_TOKEN_SECRET: Refresh token secret.
+
+- Environment:
+    * NODE_ENV: Production/development...
+    * PORT: Port to use for listening, defaults to 5000 if not set.
+
 ## Response format
 
 * Success:
